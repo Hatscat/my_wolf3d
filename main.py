@@ -8,7 +8,7 @@ import render
 
 if __name__ == "__main__":
     print("Have fun!")
-    level.init(32, 32)
+    player.init(8)
+    level.init(160, 90)
     events.init()
-    player.init(160, 90)
     render.init()
